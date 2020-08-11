@@ -2,7 +2,7 @@
 /* Editando a tag body*/
 body {
     background-color: silver;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-decoration-color: black;
 
@@ -50,11 +50,6 @@ body {
 .Artigo p {
     margin-bottom: 5px;
 
-}
-
-/* Editando a tag p da classe artigo */
-.Artigo p:last-child {
-    margin-bottom: 0px;
 }
 
 /* editando o tag footer com id rodapé */

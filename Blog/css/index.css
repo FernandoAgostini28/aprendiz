@@ -31,7 +31,7 @@ body {
     padding-left: 10px;
 }
 /* Editando a classe artigo*/
-.artigo {
+.Artigo {
     background-color: white;
     padding: 5px;
     border: 1px solid darkslategray;
@@ -40,18 +40,18 @@ body {
 }
 
 /* Editando a tag h1 da classe artigo*/
-.artigo h1{
+.Artigo h1{
     font-size: 16px;
 }
 
 /* Editando a tag p da classe artigo */
-.artigo p {
+.Artigo p {
     margin-bottom: 5px;
 
 }
 
 /* Editando a tag p da classe artigo */
-.artigo p:last-child {
+.Artigo p:last-child {
     margin-bottom: 0px;
 }
 

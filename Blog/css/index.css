@@ -1,4 +1,8 @@
-
+* {
+    margin:0;
+    padding: 0;
+    
+}
 /* Editando a tag body*/
 body {
     background-color: silver;
@@ -34,24 +38,35 @@ body {
 }
 /* Editando a classe artigo*/
 .Artigo {
-    background-color: white;
+    background-color: lightseagreen;
+    width: auto;
+    height: 30px;
     padding: 5px;
-    border: 1px solid darkslategray;
+    line-height: 30px;
+
+}
+
+/* Editando a tag h1 da classe artigo */
+h1{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Editando a tag p  classe hidden */
+p {
+    margin-bottom: 5px;
     margin-bottom: 10px;
 
 }
 
-/* Editando a tag h1 da classe artigo*/
-.Artigo h1{
-    font-size: 16px;
+/* Propridades da classe hidden quanto expandida*/
+.hidden {
+    background-color: white;
+    width: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: teal;
 }
-
-/* Editando a tag p da classe artigo */
-.Artigo p {
-    margin-bottom: 5px;
-
-}
-
 /* editando o tag footer com id rodapé */
 #rodape{
     background-color: darkslategray;

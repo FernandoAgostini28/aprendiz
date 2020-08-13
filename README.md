@@ -9,3 +9,6 @@ HTML5 e CSS
 
 ## Editor de texto
 VS  Code
+
+# Incrementando  função  abrir e fechar oculto com JavaScript
+com jquery

@@ -57,7 +57,27 @@ body {
                 position: relative;
                 cursor: pointer;
                 font-size: $sizeFontHeard;
-
+                
+                 /* quando a tela chegar ao ponto (576px) ou menor o header muda a cor para vermelho*/
+                 @media only screen and (max-width: $mediaCelularP) {
+                    background: $mdQ1;
+                }
+                /* Quando a tela está  entre (576px) e (768px) o header muda a cor para Azul*/
+                @media only screen and (min-width: $mediaCelularP) and (max-width: $mediaCelularM)  {
+                    background: $mdQ2;
+                }
+                /* Quando a tela está  entre (768px) e (992px) o header muda a cor para Cinza*/
+                @media only screen and (min-width: $mediaCelularM) and (max-width: $mediaTablets)  {
+                    background: $mdQ3;
+                }
+                /* Quando a tela está  entre (992px) e (1200px) o header muda a cor para Rosa*/
+                @media only screen and (min-width: $mediaTablets) and (max-width: $mediaLaptops)  {
+                    background: $mdQ4;
+                }
+                /* Quando a tela está  entre (1200px) e (1900px) o header muda a cor para Amarelo*/
+                @media only screen and (min-width: $mediaLaptops) and (max-width: $mediaLaptops)  {
+                    background: $mdQ5;
+                }
                
                 /* Altera a cor do texto e borda inferior ao passar o mouse*/
                 &:hover{

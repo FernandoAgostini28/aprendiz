@@ -12,3 +12,7 @@ VS  Code
 
 # Incrementando  função  abrir e fechar oculto com JavaScript
 com jquery
+
+#  Utlizando SASS 
+
+# Alterando a cor do  header  com media  query

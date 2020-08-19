@@ -16,3 +16,6 @@ com jquery
 #  Utlizando SASS 
 
 # Alterando a cor do  header  com media  query
+
+# Compilador utilizado para compilar SASS em CSS
+Live Sass Compiler 3.0  - sendo este uma extenção do Visual Code.Tambem é necesseraio instalar a extenção Live Server.

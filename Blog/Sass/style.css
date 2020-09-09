@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* importando as fontes do google*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: red;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Variaveis referente ao tamanho da tela media Query*/
+.textForm {
+  width: 800px;
+  height: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Editando a tag body*/
+body {
+  background-color: silver;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  -webkit-text-decoration-color: Black;
+          text-decoration-color: Black;
+  /* Editando a classe container*/
+}
+
+body .container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Editando a classe titulo*/
+  /* Editando a classe logo*/
+  /* Editando a classe artigo_header*/
+}
+
+body .container .titulo {
+  background-color: darkslategray;
+  width: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+body .container .logo {
+  color: white;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+body .container .artigo_header {
+  width: auto;
+  height: 30px;
+  background: darkcyan;
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+  border-bottom: 5px solid white;
+  position: relative;
+  margin-top: 10px;
+  font-size: 20px;
+  /* quando a tela chegar ao ponto (576px) ou menor o header muda a cor para vermelho*/
+  /* Quando a tela está  entre (576px) e (768px) o header muda a cor para Azul*/
+  /* Quando a tela está  entre (768px) e (992px) o header muda a cor para Cinza*/
+  /* Quando a tela está  entre (992px) e (1200px) o header muda a cor para Rosa*/
+  /* Quando a tela está  entre (1200px) e (1900px) o header muda a cor para Amarelo*/
+  /* Altera a cor do texto e borda inferior ao passar o mouse*/
+}
+
+@media only screen and (max-width: 576px) {
+  body .container .artigo_header {
+    background: red;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  body .container .artigo_header {
+    background: blue;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body .container .artigo_header {
+    background: gray;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  body .container .artigo_header {
+    background: hotpink;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1200px) {
+  body .container .artigo_header {
+    background: yellow;
+  }
+}
+
+body .container .artigo_corpo {
+  width: auto;
+  -webkit-transition: all 0,5s ease;
+  transition: all 0,5s ease;
+  background: white;
+  overflow: hidden;
+  margin-bottom: 5px;
+  /* Propridades da classe hidden quanto expandida*/
+  /*Alterando a calsse p */
+}
+
+body .container .artigo_corpo p {
+  font-family: "Montserrat", sans-serif;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 22px;
+  color: darkcyan;
+}
+
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: red;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Variaveis referente ao tamanho da tela media Query*/
+.textForm {
+  width: 800px;
+  height: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* importando as fontes do google*/
+/* editando a classe rodapé */
+.rodape {
+  background-color: darkslategray;
+  width: auto;
+  margin-top: 10px;
+  /* Editando a tag p do radapé */
+}
+
+.rodape p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+/* importando componete sass com as fontes externas*/
+@import "../autoload/index";
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+$fontFamilyBody:'Roboto', sans-serif;
+$fontFamilyArtigo:'Montserrat', sans-serif;
+$sizeFontBody:14px;
+$sizeFontHeard:20px;
+$sizeFontLogo:30px;
+$weightFonteHeard:700;
+
+
+
+    .tituloArt {
+
+    width: auto;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+
+        &:hover{
+        
+        
+        
+        color: $corTextoLogo;
+        cursor: pointer;
+        }
+
+    }
+ 

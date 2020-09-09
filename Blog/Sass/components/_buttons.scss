@@ -1,0 +1,14 @@
+@import "./colors";
+@import "./fontes";
+
+.btn {
+    background: none;
+    border: none;
+    color: $corTeste;
+    
+    
+
+    &:hover {
+        color: $corTextoLogo;
+    }
+}

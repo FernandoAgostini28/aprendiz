@@ -1,0 +1,22 @@
+@import "../components/index";
+@import "../autoload/index";
+/* editando a classe rodapé */
+        
+
+
+  .rodape {
+    background-color: $corFundoTitulo;
+    width: auto;
+    margin-top: 10px;
+    
+
+/* Editando a tag p do radapé */
+    p {
+    text-align: center;
+    color: $corTextoLogo;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,98 @@
+@import "../components/index";
+/* Editando a tag body*/
+body {
+    background-color: $corFundoDestaque;
+    font-family: $fontFamilyBody;
+    font-size: 14px;
+    text-decoration-color: $corTextoBody;
+
+
+
+
+    /* Editando a classe container*/
+.container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    
+
+    /* Editando a classe titulo*/
+    .titulo {
+        background-color: $corFundoTitulo;
+        width: auto;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    /* Editando a classe logo*/
+     .logo {
+        
+        color: $corTextoLogo;
+        font-size: $sizeFontLogo;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    /* Editando a classe artigo_header*/
+    
+        .artigo_header {
+            width: auto;
+            height: 30px;
+            background: $corFundoHeader;
+            padding: 15px;
+            color: $corTextoLogo;
+            font-weight: $weightFonteHeard;
+            border-bottom: 5px solid $corTextoLogo;
+            position: relative;
+            margin-top: 10px;
+            font-size: $sizeFontHeard;
+            
+              
+
+            /* quando a tela chegar ao ponto (576px) ou menor o header muda a cor para vermelho*/
+            @media only screen and (max-width: $mediaCelularP) {
+                background: $mdQ1;
+            }
+            /* Quando a tela está  entre (576px) e (768px) o header muda a cor para Azul*/
+            @media only screen and (min-width: $mediaCelularP) and (max-width: $mediaCelularM)  {
+                background: $mdQ2;
+            }
+            /* Quando a tela está  entre (768px) e (992px) o header muda a cor para Cinza*/
+            @media only screen and (min-width: $mediaCelularM) and (max-width: $mediaTablets)  {
+                background: $mdQ3;
+            }
+            /* Quando a tela está  entre (992px) e (1200px) o header muda a cor para Rosa*/
+            @media only screen and (min-width: $mediaTablets) and (max-width: $mediaLaptops)  {
+                background: $mdQ4;
+            }
+            /* Quando a tela está  entre (1200px) e (1900px) o header muda a cor para Amarelo*/
+            @media only screen and (min-width: $mediaLaptops) and (max-width: $mediaLaptops)  {
+                background: $mdQ5;
+            }
+            /* Altera a cor do texto e borda inferior ao passar o mouse*/
+            
+        }
+
+       
+
+
+    .artigo_corpo {
+        width: auto;
+        transition: all 0,5s ease;
+        background: $corTextoLogo;
+        overflow: hidden;
+        margin-bottom: 5px;
+        
+            /* Propridades da classe hidden quanto expandida*/
+            /*Alterando a calsse p */
+        p {
+            font-family: $fontFamilyArtigo;
+            padding: 15px;
+            font-size: $sizeFontBody;
+            line-height: 22px;
+            color: $corFundoHeader;
+            
+            }
+        }
+    }
+}

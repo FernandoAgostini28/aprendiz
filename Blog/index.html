@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sass/style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <title>Document</title>
+    <title>Blog</title>
     
 </head>
 <body>
@@ -16,25 +16,30 @@
             <div class="logo">Blog</div>
         </header>
         <div class="container">
-            <form @submit.prevent="addTodo">
+            <!-- Formulario qua adiciona novo artigo-->
+            <form @submit.prevent="addArtigo">
+                <label for="novo titulo">Novo Titulo</label><br>
+                <input class="textForm" v-model="newTitulo" type="text" name=" newTitulo" id="newTitulo" value=""><br><br>
                 <label for="Novo Artigo">Novo Artigo</label><br>
-                <input class="textForm" v-model="newTodo" type="text" name=" newTodo" id="newTodo" value=""><br><br>
                 <input class="textForm" v-model="newArtigo" type="text" name=" newArtigo" id="newArtigo" value=""><br><br>
                 <button  type="submit" name="button">Add todo</button>
             </form>
       
-          <ul>
-                <li v-for=" todo in todos"> 
-                    <div class="artigo_header"><h2 class="tituloArt" @click="todo.show = !todo.show">{{todo.titulo}}</h2>
-                         <span> <button class="btn" @click="removeTodo(todo)" type="button">remove</span><br> 
+          <ul> 
+              <!-- percorrendo o array com os artigos-->
+                <li v-for=" art in artigos"> 
+                    <div class="artigo_header"><h2 class="tituloArt" @click="art.show = !art.show">{{art.titulo}}</h2>
+                        <!-- botao para remover artigo -->
+                         <span> <button class="btn" @click="removeArt(art)" type="button">remove</span><br> 
                     </div> 
-            
-                    <div class="artigo_corpo" v-if="todo.show" id="artigo">{{todo.artigo}}</div>
+                   <!-- Exibe o texto do artigo selecionado-->
+                    <div class="artigo_corpo" v-if="art.show" id="artigo">{{art.artigo}}</div>
                
                 </li>
           </ul>
           
         </div>
+        <!-- rodape -->
             <footer class = "rodape">
                 <p> Fonte Wikipédia Todos os direitos resarvados</p>
             </footer>

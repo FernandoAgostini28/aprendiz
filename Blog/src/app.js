@@ -8,24 +8,25 @@
      }]
     }
   })*/
-
+  /* ciando e estanciando variaveis */
   new Vue({
     el: '#app',
     data: {
-        titulo: 'Oi meu amor',
-        newTodo: '',
+        titulo: '',
+        newTitulo: '',
         newArtigo:'',
-        todos: []
+        artigos: []
     },
+    /*metodo adiciona novo artigo ao Array*/
     methods:{
-        addTodo() {
-            this.todos.push({
-                titulo: this.newTodo,
+        addArtigo() {
+            this.artigos.push({
+                titulo: this.newTitulo,
                 artigo: this.newArtigo,
                 show: false,
                 
             });
-            this.newTodo = '';
+            this.newTitulo = '';
             this.newArtigo = '';
         },
         
@@ -33,9 +34,9 @@
             
         
 
-        removeTodo(todo) {
-            const todoIndex = this.todos.indexOf(todo);
-            this.todos.splice(todoIndex, 1);
+        removeArt(art) {
+            const todoIndex = this.artigos.indexOf(art);
+            this.artigos.splice(todoIndex, 1);
         }
 
        

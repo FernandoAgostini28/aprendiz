@@ -19,3 +19,8 @@ com jquery
 
 # Compilador utilizado para compilar SASS em CSS
 Live Sass Compiler 3.0  - sendo este um plugin  do Visual  Code. Tambe é necessario  instalar  outro plugin o  Live Server  do Visual Code.
+
+# iniciando com Vue Js
+Instalei o framework Vue Js utilizando o Node Js
+Para facilitar os comandos no VS Code instalei dois plugins  o "Vetur" e o "Vue VSCode Snippets.
+

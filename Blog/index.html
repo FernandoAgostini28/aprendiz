@@ -24,17 +24,19 @@
                 <input class="textForm" v-model="newArtigo" type="text" name=" newArtigo" id="newArtigo" value=""><br><br>
                 <button  type="submit" name="button">Add todo</button>
             </form>
-      
+            
+               
           <ul> 
               <!-- percorrendo o array com os artigos-->
-                <li v-for=" art in artigos"> 
-                    <div class="artigo_header"><h2 class="tituloArt" @click="art.show = !art.show">{{art.titulo}}</h2>
+                <li v-for=" (art , index) in artigos"> 
+                    <div class="artigo_header"><h2 class="tituloArt" @click="{{exibirArtigo(index)}}">{{art.titulo}}</h2>
                         <!-- botao para remover artigo -->
                          <span> <button class="btn" @click="removeArt(art)" type="button">remove</span><br> 
                     </div> 
                    <!-- Exibe o texto do artigo selecionado-->
-                    <div class="artigo_corpo" v-if="art.show" id="artigo">{{art.artigo}}</div>
-               
+                    <div class="artigo_corpo" v-if="artigoAberto === index" id="artigo">{{art.artigo}}</div>
+                    
+                    
                 </li>
           </ul>
           

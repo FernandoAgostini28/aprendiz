@@ -15,6 +15,7 @@
         titulo: '',
         newTitulo: '',
         newArtigo:'',
+        artigoAberto: 0,
         artigos: []
     },
     /*metodo adiciona novo artigo ao Array*/
@@ -28,6 +29,10 @@
             });
             this.newTitulo = '';
             this.newArtigo = '';
+        },
+
+        exibirArtigo(index){
+          this.artigoAberto = index;
         },
         
           

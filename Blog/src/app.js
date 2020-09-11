@@ -15,7 +15,7 @@
         titulo: '',
         newTitulo: '',
         newArtigo:'',
-        artigoAberto: 0,
+        artigoAberto: null,
         artigos: []
     },
     /*metodo adiciona novo artigo ao Array*/

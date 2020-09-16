@@ -1,0 +1,130 @@
+/*importando compontes scss*/
+@import "./colors";
+@import "./fontes";
+@import "./mediaQuery";
+
+  /* css classe card*/
+  .card {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+    /* Ao passsar o mouse o card aumenta e recebe sombra*/
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+      }
+  }
+  /* cabeçalho do card*/
+  .card-header {
+    text-align: center;
+    padding: 10px 10px;
+    background: $corFundoHeader;
+    color: #fff;
+    
+  }
+  /* corpo do card*/
+  .card-body {
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Quando a tela está  entre (992px) e (1200px) o header card muda a cor para Rosa*/
+  @media screen and (min-width: $mediaTablets) and (max-width: $mediaLaptops)  {
+    .card-header {
+       
+        background: $mdQ4;
+        
+      }
+
+    .heading {
+        padding: 10px;
+        font-size: 14px;
+      }
+    .card {
+      width: 100%;
+    }
+  }
+  
+  /* Quando a tela está  entre (768px) e (992px) o header card muda a cor para Cinza*/
+  @media screen and (min-width: $mediaCelularM) and (max-width: $mediaTablets)  {
+    .card-header {
+       
+        background: $mdQ3;
+        
+      }
+
+    .card-body {
+        padding: 10px;
+        font-size: 14px;
+      }
+    .container {
+        width: 100%;
+      }
+    
+    .heading {
+        padding: 10px;
+        font-size: 14px;
+      }
+    .card {
+      width: 100%;
+    }
+  }
+
+  /* Quando a tela está  entre (576px) e (768px) o header card muda a cor para Azul*/
+  @media screen and (min-width: $mediaCelularP) and (max-width: $mediaCelularM)  {
+    .card-header {
+       
+        background:$mdQ2;
+        
+      }
+
+    .card-body {
+        padding: 10px;
+        font-size: 12px;
+      }
+    .container {
+        width: 100%;
+      }
+    
+    .heading {
+        padding: 10px;
+        font-size: 14px;
+      }
+    .card {
+      width: 100%;
+    }
+  }
+  
+  /* Quando a tela está  entre (576px)  o header card  muda a cor para vermelho*/
+  @media screen and (max-width: $mediaCelularP) {
+    .card-header {
+       
+        background: $mdQ1;
+        
+      }
+
+    .card-body {
+        padding: 5px;
+      font-size: 12px;
+      }
+
+    .container {
+      width: 100%;
+    }
+  
+    .heading {
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+    .card {
+      width: 100%;
+      
+      
+    }
+  }
+  

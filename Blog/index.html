@@ -8,49 +8,60 @@
     <title>Blog</title>
     
 </head>
+
 <body>
-    
     <!-- Local onde o Vue irá controlar -->
     <div class="container" id="app">
-        <header class="titulo">
-            <div class="logo">Blog</div>
-        </header>
-        <div class="container">
-            <!-- Formulario qua adiciona novo artigo-->
-            <form @submit.prevent="addArtigo">
-                <label for="novo titulo">Novo Titulo</label><br>
-                <input class="textForm" v-model="newTitulo" type="text" name=" newTitulo" id="newTitulo" value=""><br><br>
-                <label for="Novo Artigo">Novo Artigo</label><br>
-                <input class="textForm" v-model="newArtigo" type="text" name=" newArtigo" id="newArtigo" value=""><br><br>
-                <button  type="submit" name="button">Add todo</button>
-            </form>
-            
+        <div class="heading">
+            <header class="titulo1">
+                <h1>Linguagens de programação</h1>
+            </header> 
+            <div class="container">
+                <!-- Formulario qua adiciona novo artigo-->
+                <form @submit.prevent="addArtigo">
+                
+                    <div class= "tituloCard">
+                        <h1>Novo Titulo</h1>
+                        <input class="textForm " v-model="newTitulo" type="text" placeholder="Novo titulo" name=" newTitulo" id="newTitulo" value=""><br><br>
+                    </div>
+                
+                
+                    <div class=" tituloCard">
+                        <h1>Novo Artigo</h1>
+                        <input class="textForm" v-model="newArtigo" type="text" placeholder="Novo Artigo" name=" newArtigo" id="newArtigo" value=""><br><br>
+                        <button class="buttonGreen" type="submit" name="button">Adicionar</button>
+                    </div>
+                
+                </form>
+        
                
-          <ul> 
+                <ul> 
               <!-- percorrendo o array com os artigos-->
-                <li v-for=" (art , index) in artigos"> 
-                    <div class="artigo_header"><h2 class="tituloArt" @click="{{exibirArtigo(index)}}">{{art.titulo}}</h2>
-                        <!-- botao para remover artigo -->
-                         <span> <button class="btn" @click="removeArt(art)" type="button">remove</span><br> 
-                    </div> 
-                   <!-- Exibe o texto do artigo selecionado-->
-                    <div class="artigo_corpo" v-if="artigoAberto === index" id="artigo">{{art.artigo}}</div>
-                    
-                    
-                </li>
-          </ul>
+                    <li v-for=" (art , index) in artigos"> 
+                        <div class="row">
+                            <div class="card">
+                                <div class="card-header"><h2 class="tituloArt" @click="{{exibirArtigo(index)}}">{{art.titulo}}</h2>
+                                
+                                 
+                                </div> 
+                                <!-- Exibe o texto do artigo selecionado-->
+                            <div class="card-body" v-if="artigoAberto === index" id="artigo">{{art.artigo}}</div>
+                                <!-- botao para remover artigo -->
+                                <button class="btn" @click="removeArt(art)" type="button">remove</button>
+                            </div>
+                        </div>   
+                    </li>
+                </ul>
           
-        </div>
+            </div>
         <!-- rodape -->
             <footer class = "rodape">
                 <p> Fonte Wikipédia Todos os direitos resarvados</p>
             </footer>
-    </div>
+        </div>
  
-</div>
-
-</div>
-
+    </div>
+    
     <script  src="./src/app.js"></script>   
 </body>
 

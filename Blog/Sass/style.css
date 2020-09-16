@@ -2,6 +2,10 @@
 /* importando as fontes do google*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*importando compontes scss*/
+/*importando compontes scss*/
+/*importando compontes scss*/
+/*importando compontes scss*/
 /* Variaveis referentes as colores*/
 /* importando componete sass com as fontes externas*/
 /* importando as fontes do google*/
@@ -9,6 +13,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* importando as fontes do google*/
 /* Variaveis referentes ao texto*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
@@ -32,11 +54,45 @@
 .btn {
   background: none;
   border: none;
-  color: red;
+  color: green;
+  text-align: center;
+}
+
+.btn:focus {
+  outline: 0;
 }
 
 .btn:hover {
+  color: red;
+}
+
+/* Botão verde*/
+.buttonGreen {
+  width: 92%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
   color: white;
+  border-radius: 7px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px;
+  border-bottom: 0px solid #eee;
+  background: #82CA9D;
+  font-size: 14px;
+}
+
+.buttonGreen:focus {
+  outline: 0;
+}
+
+.buttonGreen:active {
+  -webkit-transform: scaleX(0.9) translateY(4px);
+          transform: scaleX(0.9) translateY(4px);
+}
+
+.buttonGreen:not(:active) {
+  border-bottom: 4px solid #62AA7D;
 }
 
 /* Variaveis referentes as colores*/
@@ -58,116 +114,429 @@
 
 /* Variaveis referente ao tamanho da tela media Query*/
 .textForm {
-  width: 800px;
-  height: 30px;
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  resize: vertical;
+  margin-top: 5px;
+}
+
+/* removendo borda ao receber o foco*/
+textarea:focus, input:focus, select:focus {
+  outline: 0;
 }
 
 li {
   list-style-type: none;
 }
 
+/*importando compontes scss*/
+/* importando as fontes do google*/
+/* Variaveis referentes as colores*/
+.tituloCard {
+  text-align: center;
+  color: #fff;
+  background: darkcyan;
+}
+
+/*importando compontes scss*/
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Variaveis referente ao tamanho da tela media Query*/
+/* css classe card*/
+.card {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  /* Ao passsar o mouse o card aumenta e recebe sombra*/
+}
+
+.card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+/* cabeçalho do card*/
+.card-header {
+  text-align: center;
+  padding: 10px 10px;
+  background: darkcyan;
+  color: #fff;
+}
+
+/* corpo do card*/
+.card-body {
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Quando a tela está  entre (992px) e (1200px) o header card muda a cor para Rosa*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .card-header {
+    background: hotpink;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (768px) e (992px) o header card muda a cor para Cinza*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card-header {
+    background: gray;
+  }
+  .card-body {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (576px) e (768px) o header card muda a cor para Azul*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .card-header {
+    background: blue;
+  }
+  .card-body {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (576px)  o header card  muda a cor para vermelho*/
+@media screen and (max-width: 576px) {
+  .card-header {
+    background: red;
+  }
+  .card-body {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* importando as fontes do google*/
+.titulo1 {
+  background-color: darkslategray;
+  width: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  height: 45px;
+}
+
+.titulo1 h1 {
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+/*importando compontes scss*/
+/*importando compontes scss*/
+/*importando compontes scss*/
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: green;
+  text-align: center;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  color: red;
+}
+
+/* Botão verde*/
+.buttonGreen {
+  width: 92%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 7px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px;
+  border-bottom: 0px solid #eee;
+  background: #82CA9D;
+  font-size: 14px;
+}
+
+.buttonGreen:focus {
+  outline: 0;
+}
+
+.buttonGreen:active {
+  -webkit-transform: scaleX(0.9) translateY(4px);
+          transform: scaleX(0.9) translateY(4px);
+}
+
+.buttonGreen:not(:active) {
+  border-bottom: 4px solid #62AA7D;
+}
+
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Variaveis referente ao tamanho da tela media Query*/
+.textForm {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  resize: vertical;
+  margin-top: 5px;
+}
+
+/* removendo borda ao receber o foco*/
+textarea:focus, input:focus, select:focus {
+  outline: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*importando compontes scss*/
+/* importando as fontes do google*/
+/* Variaveis referentes as colores*/
+.tituloCard {
+  text-align: center;
+  color: #fff;
+  background: darkcyan;
+}
+
+/*importando compontes scss*/
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Variaveis referente ao tamanho da tela media Query*/
+/* css classe card*/
+.card {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  /* Ao passsar o mouse o card aumenta e recebe sombra*/
+}
+
+.card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+/* cabeçalho do card*/
+.card-header {
+  text-align: center;
+  padding: 10px 10px;
+  background: darkcyan;
+  color: #fff;
+}
+
+/* corpo do card*/
+.card-body {
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Quando a tela está  entre (992px) e (1200px) o header card muda a cor para Rosa*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .card-header {
+    background: hotpink;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (768px) e (992px) o header card muda a cor para Cinza*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card-header {
+    background: gray;
+  }
+  .card-body {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (576px) e (768px) o header card muda a cor para Azul*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .card-header {
+    background: blue;
+  }
+  .card-body {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (576px)  o header card  muda a cor para vermelho*/
+@media screen and (max-width: 576px) {
+  .card-header {
+    background: red;
+  }
+  .card-body {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
 /* Editando a tag body*/
 body {
+  width: auto;
   background-color: silver;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   -webkit-text-decoration-color: Black;
           text-decoration-color: Black;
-  /* Editando a classe container*/
+  padding: 30px;
 }
 
-body .container {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  /* Editando a classe titulo*/
-  /* Editando a classe logo*/
-  /* Editando a classe artigo_header*/
-}
-
-body .container .titulo {
-  background-color: darkslategray;
-  width: auto;
-  margin-bottom: 5px;
-  margin-top: 10px;
-}
-
-body .container .logo {
-  color: white;
-  font-size: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
-
-body .container .artigo_header {
-  width: auto;
-  height: 30px;
-  background: darkcyan;
-  padding: 15px;
-  color: white;
-  font-weight: 700;
-  border-bottom: 5px solid white;
-  position: relative;
-  margin-top: 10px;
-  font-size: 20px;
-  /* quando a tela chegar ao ponto (576px) ou menor o header muda a cor para vermelho*/
-  /* Quando a tela está  entre (576px) e (768px) o header muda a cor para Azul*/
-  /* Quando a tela está  entre (768px) e (992px) o header muda a cor para Cinza*/
-  /* Quando a tela está  entre (992px) e (1200px) o header muda a cor para Rosa*/
-  /* Quando a tela está  entre (1200px) e (1900px) o header muda a cor para Amarelo*/
-  /* Altera a cor do texto e borda inferior ao passar o mouse*/
-}
-
-@media only screen and (max-width: 576px) {
-  body .container .artigo_header {
-    background: red;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-  body .container .artigo_header {
-    background: blue;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  body .container .artigo_header {
-    background: gray;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  body .container .artigo_header {
-    background: hotpink;
-  }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1200px) {
-  body .container .artigo_header {
-    background: yellow;
-  }
-}
-
-body .container .artigo_corpo {
-  width: auto;
-  -webkit-transition: all 0,5s ease;
-  transition: all 0,5s ease;
-  background: white;
-  overflow: hidden;
-  margin-bottom: 5px;
-  /* Propridades da classe hidden quanto expandida*/
-  /*Alterando a calsse p */
-}
-
-body .container .artigo_corpo p {
-  font-family: "Montserrat", sans-serif;
-  padding: 15px;
-  font-size: 14px;
-  line-height: 22px;
-  color: darkcyan;
-}
-
+/*importando compontes scss*/
+/*importando compontes scss*/
 /* Variaveis referentes as colores*/
 /* importando componete sass com as fontes externas*/
 /* importando as fontes do google*/
@@ -188,11 +557,45 @@ body .container .artigo_corpo p {
 .btn {
   background: none;
   border: none;
-  color: red;
+  color: green;
+  text-align: center;
+}
+
+.btn:focus {
+  outline: 0;
 }
 
 .btn:hover {
+  color: red;
+}
+
+/* Botão verde*/
+.buttonGreen {
+  width: 92%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
   color: white;
+  border-radius: 7px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px;
+  border-bottom: 0px solid #eee;
+  background: #82CA9D;
+  font-size: 14px;
+}
+
+.buttonGreen:focus {
+  outline: 0;
+}
+
+.buttonGreen:active {
+  -webkit-transform: scaleX(0.9) translateY(4px);
+          transform: scaleX(0.9) translateY(4px);
+}
+
+.buttonGreen:not(:active) {
+  border-bottom: 4px solid #62AA7D;
 }
 
 /* Variaveis referentes as colores*/
@@ -214,12 +617,160 @@ body .container .artigo_corpo p {
 
 /* Variaveis referente ao tamanho da tela media Query*/
 .textForm {
-  width: 800px;
-  height: 30px;
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  resize: vertical;
+  margin-top: 5px;
+}
+
+/* removendo borda ao receber o foco*/
+textarea:focus, input:focus, select:focus {
+  outline: 0;
 }
 
 li {
   list-style-type: none;
+}
+
+/*importando compontes scss*/
+/* importando as fontes do google*/
+/* Variaveis referentes as colores*/
+.tituloCard {
+  text-align: center;
+  color: #fff;
+  background: darkcyan;
+}
+
+/*importando compontes scss*/
+/* Variaveis referentes as colores*/
+/* importando componete sass com as fontes externas*/
+/* importando as fontes do google*/
+/* importando as fontes do google*/
+/* Variaveis referentes ao texto*/
+.tituloArt {
+  width: auto;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.tituloArt:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Variaveis referente ao tamanho da tela media Query*/
+/* css classe card*/
+.card {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  /* Ao passsar o mouse o card aumenta e recebe sombra*/
+}
+
+.card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+/* cabeçalho do card*/
+.card-header {
+  text-align: center;
+  padding: 10px 10px;
+  background: darkcyan;
+  color: #fff;
+}
+
+/* corpo do card*/
+.card-body {
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Quando a tela está  entre (992px) e (1200px) o header card muda a cor para Rosa*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .card-header {
+    background: hotpink;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (768px) e (992px) o header card muda a cor para Cinza*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card-header {
+    background: gray;
+  }
+  .card-body {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (576px) e (768px) o header card muda a cor para Azul*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .card-header {
+    background: blue;
+  }
+  .card-body {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Quando a tela está  entre (576px)  o header card  muda a cor para vermelho*/
+@media screen and (max-width: 576px) {
+  .card-header {
+    background: red;
+  }
+  .card-body {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .card {
+    width: 100%;
+  }
 }
 
 /* importando as fontes do google*/

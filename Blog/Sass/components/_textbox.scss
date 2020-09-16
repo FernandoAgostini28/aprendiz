@@ -1,7 +1,16 @@
 
     .textForm {
-
-        width: 800px;
-        height: 30px;
-
+        width: 90%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        resize: vertical;
+        margin-top: 5px;
+        
+        
+        
+     }
+     /* removendo borda ao receber o foco*/
+     textarea:focus, input:focus, select:focus {
+        outline: 0;
     }

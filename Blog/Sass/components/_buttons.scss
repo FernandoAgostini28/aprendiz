@@ -1,14 +1,52 @@
+/*importando compontes scss*/
 @import "./colors";
 @import "./fontes";
 
+
 .btn {
+
+    
     background: none;
     border: none;
-    color: $corTeste;
+    color: green;
+    text-align: center;
     
+    &:focus{ outline: 0 }
     
 
     &:hover {
-        color: $corTextoLogo;
+        color: red;
     }
+    
 }
+
+/* Botão verde*/
+.buttonGreen {
+    width: 92%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: $corTextoLogo;
+    border-radius: 7px;
+    transition: all 0.2s;
+    margin: 5px;
+    border-bottom: 0px solid #eee;
+    background: #82CA9D;
+    font-size: $sizeFontBody;
+
+    &:focus{ outline: 0 }
+
+    &:active{
+        transform: scaleX(0.9) translateY(4px);
+      }
+      
+      
+        
+      
+            &:not(:active){
+                border-bottom: 4px solid #62AA7D;
+            
+      }
+      
+    
+  }

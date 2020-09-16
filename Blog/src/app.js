@@ -30,7 +30,7 @@
             this.newTitulo = '';
             this.newArtigo = '';
         },
-
+        /* metodo para comparar  abrir artigo*/
         exibirArtigo(index){
           this.artigoAberto = index;
         },
@@ -38,7 +38,7 @@
           
             
         
-
+        /* metodo para remover artigo*/
         removeArt(art) {
             const todoIndex = this.artigos.indexOf(art);
             this.artigos.splice(todoIndex, 1);
